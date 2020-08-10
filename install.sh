@@ -151,7 +151,7 @@ downLHns () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Downloading hns file${reset}\n"
-		cd /etc/hns && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns.sh && chmod +x hns.sh
+		cd /etc/hns && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns.sh && sudo chmod +x hns.sh
 		echo ""
 		printf "${green}Hns file downloaded successfully${reset}\n"
 		echo ""
@@ -166,7 +166,7 @@ startHnsKali () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Installing Hns tool${reset}\n"
-		cd /bin && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns && chmod +x hns
+		cd /bin && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns && sudo chmod +x hns
 		echo ""
 		printf "${green}Hns tool is installed successfully${reset}\n"
 		echo ""
