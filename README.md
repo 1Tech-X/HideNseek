@@ -18,6 +18,8 @@ Based on Steganography
 
 - curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/install.sh
 
+- bash install.sh
+
 <h3>Start Hide N seek tool by typing</h3>
 
 - hns
