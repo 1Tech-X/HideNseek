@@ -26,7 +26,7 @@ Based on Steganography
 
 - sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/install.sh
 
-- chmod +x install.sh
+- sudo chmod +x install.sh
 
 - ./install.sh
 
