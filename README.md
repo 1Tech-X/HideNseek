@@ -16,9 +16,19 @@ Based on Steganography
 
 # Installation
 
+<h2>For Termux</h2>
+
 - curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/install.sh
 
 - bash install.sh
+
+<h2>For Kali linux </h2>
+
+- sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/install.sh
+
+- chmod +x install.sh
+
+- ./install.sh
 
 <h3>Start Hide N seek tool by typing</h3>
 
