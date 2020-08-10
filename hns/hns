@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Statartup file for Hide And Seek tool
+
+bash /data/data/com.termux/files/usr/share/hns.sh
