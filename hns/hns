@@ -2,4 +2,4 @@
 
 # Statartup file for Hide And Seek tool
 
-bash /data/data/com.termux/files/usr/share/hns.sh
+bash /data/data/com.termux/files/usr/share/hns/hns.sh
