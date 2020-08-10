@@ -1,0 +1,4 @@
+#!/bin/bash
+# Hide and seek tool startup file For kali linux
+
+bash /etc/hns/hns.sh
