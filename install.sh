@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/bash
 # Copyright ©2020 by Tech-X. All Right Reserved
 
 # Website : https://www.mrtechx.com
@@ -81,7 +81,7 @@ DownlHns () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Downloading Hns file${reset}\n"
-		cd $PREFIX/share/hns && curl -LO
+		cd $PREFIX/share/hns && curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hns/hns.sh
 		echo ""
 		printf "${green}Hns file is downloaded Successfully${reset}\n"
 		echo ""
@@ -97,11 +97,11 @@ hnsStart () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Installing hns toolstartup${reset}\n"
-		cd $PREFIX/bin && curl -LO 
+		cd $PREFIX/bin && curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hns/hns && chmod +x hns
 		echo ""
 		printf "${green}Installed successfully${reset}\n"
 		echo ""
-		printf "${yellow}Now you can start Hide N seek tool by typing ${red}hns\n"
+		printf "${yellow}Now you can start Hide N seek tool by typing ${red}hns${reset}\n"
 	fi
 
 
@@ -134,7 +134,7 @@ createDir () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Creating Hns Directory${reset}\n"
-		mkdir /etc/hns
+		sudo mkdir /etc/hns
 		echo ""
 		printf "${green}Hns directory created${reset}\n"
 		echo ""
@@ -151,7 +151,7 @@ downLHns () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Downloading hns file${reset}\n"
-		cd /etc/hns && sudo curl -LO 
+		cd /etc/hns && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns.sh && chmod +x hns.sh
 		echo ""
 		printf "${green}Hns file downloaded successfully${reset}\n"
 		echo ""
@@ -166,11 +166,11 @@ startHnsKali () {
 	else
 		echo ""
 		printf "${red}[*]${blue}Installing Hns tool${reset}\n"
-		cd /bin && sudo curl -LO
+		cd /bin && sudo curl -LO https://raw.githubusercontent.com/1Tech-X/HideNseek/master/hnsKali/hns && chmod +x hns
 		echo ""
 		printf "${green}Hns tool is installed successfully${reset}\n"
 		echo ""
-		printf "${yellow}Now you can start Hide N seek tool by typing ${red}hns\n"
+		printf "${yellow}Now you can start Hide N seek tool by typing ${red}hns${reset}\n"
 	fi
 
 
